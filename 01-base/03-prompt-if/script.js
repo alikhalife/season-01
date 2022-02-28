@@ -7,5 +7,15 @@
   console.log('Hello Keller programmer');
 
   // YOUR CODE HERE
+  let answer = prompt("Do you want some cake? ")
+  let lowerCaseAnswer = answer.toLowerCase();
+
+  if (lowerCaseAnswer == "yes") {
+    alert("Congratulations, have some cake!")
+  } 
+  else {
+    alert("More cake for me then!")
+  }
+
 })();
 

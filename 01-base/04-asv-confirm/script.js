@@ -7,4 +7,9 @@
     console.log('Hello Keller programmer');
 
     // YOUR CODE HERE
+    let answer1 = prompt("How old are you? ");
+    let answer2 = prompt("What is your gender? ");
+    let answer3 = prompt("Where is your Hometown? ");
+
+    confirm("Can you confirm that you are a " + answer1 + " old " + answer2 + " and your Hometown is " + answer3)
 })();

@@ -7,6 +7,6 @@
 
     // YOUR CODE HERE
     var a = "Hello, World !"
-    alert(a);
+    window.alert(a);
 
 })();
