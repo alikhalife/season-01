@@ -6,4 +6,22 @@
 
     // your code here
 
+    let body = document.querySelector("body")
+
+    document.getElementById("red").addEventListener("click", () => {
+        document.body.style.backgroundColor = "red";
+    })
+
+    document.querySelector("#green").addEventListener("click", () => {
+        body.style.backgroundColor = "green";
+    })
+
+    document.getElementById("yellow").addEventListener("click", () => {
+        body.style.backgroundColor = "yellow";
+    })
+
+    document.querySelector("#blue").addEventListener("click", () => {
+        body.style.backgroundColor = "blue";
+    })
+
 })();
