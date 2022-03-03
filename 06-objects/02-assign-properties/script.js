@@ -19,4 +19,28 @@
         user: null,
     };
     // your code here
+
+
+    document.getElementById("run").addEventListener("click", () => {
+        console.log(computers[0].id)
+
+        for (let i =0; i < computers.length; i++) {
+
+            if (computers[i].hasOwnProperty("available") == false) {
+                computers[i].available = defaultProps.available;
+            }  
+
+            if (computers[i].hasOwnProperty("os") == false) {
+                computers[i].os = defaultProps.os;
+            }
+
+            if (computers[i].hasOwnProperty("user") == false) {
+                computers[i].user = defaultProps.user
+            }
+        }
+
+        console.log(computers)
+
+        
+    })
 })();

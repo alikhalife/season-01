@@ -11,4 +11,26 @@
         status: "married",
     };
     // your code here
+
+    
+
+    document.getElementById("run").addEventListener("click", () => {
+
+       console.log(Object.keys(person)) 
+
+       let arr = [];
+
+       Object.keys(person).forEach(function(property) {
+           console.log(person[property])
+
+
+           arr.push(person[property])
+       })
+
+       console.log(arr)
+    })
 })();
+
+["a", "b", "c", "d"].forEach(function(value){
+    console.log(value)
+})
