@@ -82,4 +82,20 @@
 
     // your code here
 
+    var adults = [];
+
+    
+
+    document.getElementById("run").addEventListener("click", () => {
+
+        for (let i = 0; i < people.length; i++) {
+            if (people[i].age > 18) {
+                adults.push(people[i])
+            }
+        }
+        console.log(adults)
+        console.log(people)
+    })
+
 })();
+

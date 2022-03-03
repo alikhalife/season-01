@@ -3,6 +3,7 @@
 (() => {
 
     const fruits = [
+        
         "apple",
         "perry",
         "strawberry",
@@ -15,8 +16,25 @@
         "peach",
         "grapes",
         "cherry",
+        
     ];
 
     // your code here
 
+    let answer;
+
+    document.getElementById("run").addEventListener("click", () => {
+        for (let i = 0; i < fruits.length; i++) {
+            if(fruits[i] == "apple")  {
+               answer = "yes"
+               break;  
+            } else {
+               answer = "no"
+            }
+        }
+        console.log(answer)
+    })
+
+
 })();
+
