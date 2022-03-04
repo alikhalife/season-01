@@ -25,11 +25,11 @@
 document.getElementById("run").addEventListener("click", () => {
 
 
-    let person1 = new Person("cooki", "feghali");
+    let person1 = new Person("John", "Doe");
    console.log(person1.name);
    
 
-   person1.name = "ali khalife";
+   person1.name = "Jane Dough";
    console.log(person1.name);
 
 })
